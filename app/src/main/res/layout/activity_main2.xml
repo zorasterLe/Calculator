@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="cm"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/et_input1"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_input1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="dm"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/et_input2"
+        android:layout_below="@+id/text1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <EditText
+        android:id="@+id/et_input2"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/et_input1"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="m"
+        android:layout_toRightOf="@+id/et_input3"
+        android:layout_below="@+id/text2"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/et_input3"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/et_input2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+
+    <Button
+        android:id="@+id/bg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:text="转换"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/cl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:layout_toRightOf="@+id/bg1"
+        android:layout_below="@+id/text3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="cm^3"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/et_input4"
+        android:layout_below="@+id/bg1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/et_input4"
+        android:layout_below="@+id/bg1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/text4"
+        android:layout_toRightOf="@+id/et_input5"
+        android:text="dm^3"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <EditText
+        android:id="@+id/et_input5"
+        android:layout_below="@+id/et_input4"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_below="@+id/text5"
+        android:layout_toRightOf="@+id/et_input6"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="m^3"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <EditText
+        android:id="@+id/et_input6"
+        android:layout_below="@+id/et_input5"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/bg2"
+        android:layout_below="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转换"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/cl2"
+        android:layout_below="@+id/text6"
+        android:layout_toRightOf="@+id/bg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="返回"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+</RelativeLayout>
